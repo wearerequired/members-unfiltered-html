@@ -12,5 +12,8 @@
   ],
   "suggest": {
     "wpackagist-plugin/members": "The most powerful user, role, and capability management plugin for WordPress."
+  },
+  "require": {
+    "php": ">=5.6"
   }
 }
