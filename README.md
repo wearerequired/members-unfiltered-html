@@ -10,7 +10,8 @@ Example of a `composer.json` for a site:
 ```json
 {
   "name": "wearerequired/something",
-  "license": "GPL-2.0+",
+  "description": "required.com",
+  "license": "GPL-2.0-or-later",
   "authors": [
     {
       "name": "required gmbh",
@@ -20,15 +21,10 @@ Example of a `composer.json` for a site:
   "require": {
     "php": ">=5.6",
     "koodimonni/composer-dropin-installer": "dev-master",
-    "johnpbloch/wordpress": "~4.7",
-    "wearerequired/members-unfiltered-html": "dev-master"
+    "johnpbloch/wordpress": "~4.9",
+    "wpackagist-plugin/members": "^2.0",
+    "wearerequired/members-unfiltered-html": "^1.0"
   },
-  "repositories": [
-    {
-      "type": "git",
-      "url": "git@github.com:wearerequired/members-unfiltered-html.git"
-    }
-  ],
   "extra": {
     "wordpress-install-dir": "wordpress/wp",
     "installer-paths": {
@@ -51,3 +47,4 @@ Example of a `composer.json` for a site:
   "minimum-stability": "dev",
   "prefer-stable": true
 }
+```
