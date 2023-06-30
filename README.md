@@ -5,6 +5,10 @@ WordPress mu-plugin which allows to add the `unfiltered_html` capability to a ro
 
 ## Installation
 
+```
+composer require wearerequired/members-unfiltered-html
+```
+
 Example of a `composer.json` for a site:
 
 ```json
